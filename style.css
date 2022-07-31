@@ -1,0 +1,133 @@
+body{
+    background-color: black;
+    color: white;
+    margin: auto;
+    font-size: 26px;
+}
+header{
+    display: flex;
+    
+}
+nav{
+    display: flex;
+    justify-content:end;
+    
+}
+.str1{
+    padding-left: 10px;
+}
+.str2{
+    padding-left: 60px;
+}
+.str3{
+    padding-left: 110px;
+}
+.firstdiv{
+    display: flex;
+    padding: 150px;
+    
+}
+.divsec{
+    display: flex;
+    padding-bottom: 50px;
+}
+.divthird{
+    padding-left: 120px;
+    margin-top: 100px;
+}
+.line{
+    text-align:center;
+    padding-right: 200px;
+}
+.line1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+        
+}
+.wave_width{
+    width:100%;
+}
+.pirates_png{
+    text-align: center;
+    margin-left: 300px;
+    width: 25%;
+}
+.paragraph{
+    font-size: 36px;
+}
+#paragraph1{
+    padding-left: 50px;
+}
+.nav2{
+    padding-left: 40px;
+    
+}
+
+.logo{
+    padding-top: 5px;
+    width: 5%;
+    height: 5%;
+    
+}
+.footer_rules{
+    padding-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.bosses{
+    color:red;
+}
+#Legendary{
+    color: aquamarine;
+}
+#Shroud{
+    color: gold;
+}
+a:hover{
+    animation: href 1s infinite;
+}
+@keyframes href{
+    0%{color: #fff;}
+    100%{color: red;
+        }
+}
+.linkfora1{
+    width: 20%;
+}
+.linkfora2{
+    width: 20%;
+}
+@media(max-width:1440px) {
+    .logo{
+        padding-top: 5px;
+        width: 10%;
+        height: 10%;
+    }
+    body{
+        font-size: 16px;
+    }
+    main{
+        font-size:16;
+    }
+    .pirates_png{
+        width: 50%;
+        height: 50%;
+    }
+    .line{
+        width: 15%;
+    }
+    #paragraph1{
+        width: 15%;
+    }
+}
+@media(min-width:1440px) {
+    
+    .body{
+        font-size: 20px;
+    }
+    
+}
